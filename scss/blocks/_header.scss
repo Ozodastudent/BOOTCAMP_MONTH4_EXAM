@@ -1,0 +1,45 @@
+.header_top {
+  padding-top: 8px;
+  &_text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1a1a1a;
+  }
+}
+.header_main {
+  padding-top: 15px;
+  padding-bottom: 13px;
+  background: linear-gradient(90.05deg, #e47500 -5.66%, #df7c14 115.63%);
+}
+.logo {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 155.2%;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+}
+.nav_link_item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.header_btn {
+  color: #dc7000;
+}
+.navbar-toggler-icon {
+  width: 26px;
+  height: 21px;
+  background-image: url("../../images/toggle.png");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+@media only screen and(max-width: 992px) {
+  .nav_link_item {
+    font-size: 18px;
+  }
+}
